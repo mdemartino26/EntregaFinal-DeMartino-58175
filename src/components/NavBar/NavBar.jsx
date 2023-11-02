@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Button from 'react-bootstrap/Button';
 import './NavBar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import favicon from '../../../public/favicon.ico';
+import favicon from './assets/favicon.ico';
 
 
 const NavBar = () => {
