@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Button from 'react-bootstrap/Button';
 import './NavBar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import favicon from '../../../public/favicon.ico';
 
 
 const NavBar = () => {
@@ -12,13 +13,13 @@ const NavBar = () => {
     <Navbar className="navbar">
       <Container>
         <Nav>
-          <h3>CoShop</h3>
+        <img src={favicon} alt="Coshop" />
         </Nav>
         <Nav>
           <div>
-            <Button  variant="outline-primary">Celulares</Button>
-            <Button  variant="outline-primary">Tablet</Button>
-            <Button  variant="outline-primary">Notebooks</Button>
+            <Button  variant="outline-danger">Discos</Button>
+            <Button  variant="outline-danger">Singles</Button>
+            <Button  variant="outline-danger">Merch</Button>
           </div>
         </Nav>
         <Nav>
