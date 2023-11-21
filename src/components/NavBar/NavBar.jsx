@@ -15,12 +15,12 @@ const NavBar = () => {
         <Link to="/">
           <img src={favicon} alt="Coshop" />
         </Link>
-        <Nav>
-          <div>
+        <Nav className="links">
+         
             <NavLink to={"/category/discos"} className={({isActive}) => isActive? 'ActiveOption' : 'Option'}>Discos</NavLink>
             <NavLink to={'/category/singles'} className={({isActive}) => isActive? 'ActiveOption' : 'Option'}>Singles</NavLink>
             <NavLink to={'/category/merch'} className={({isActive}) => isActive? 'ActiveOption' : 'Option'}>Merch</NavLink>
-          </div>
+          
         </Nav>
         <Nav>
           <CartWidget />

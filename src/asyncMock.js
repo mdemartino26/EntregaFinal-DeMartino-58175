@@ -1,13 +1,13 @@
 const products = [
     {
         id: '1',
-        name:'Can´t catch me now',
+        name:'Drivers Licence',
         artist:'Olivia Rodrigo',
         price:'5000',
         category:'singles',
-        img:'https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Olivia_Rodrigo_-_Can%27t_Catch_Me_Now.png/220px-Olivia_Rodrigo_-_Can%27t_Catch_Me_Now.png',
+        img:'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f0/19/d6/f019d61e-6bd3-d936-1214-22b732083ef0/20UM1IM14285.rgb.jpg/1200x1200bb.jpg',
         stock: 30,
-        descrip:'Can´t catch me now single'
+        descrip:'Drivers Licence single'
     }, 
     {
         id: '2',
