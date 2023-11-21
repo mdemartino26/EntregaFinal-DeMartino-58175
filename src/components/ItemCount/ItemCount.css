@@ -1,0 +1,9 @@
+.Counter{
+    background-color: #000000;
+    color: white;
+}
+
+.Controls{
+    display: flex;
+    justify-content: space-evenly;
+}
