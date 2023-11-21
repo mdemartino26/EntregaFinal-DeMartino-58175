@@ -1,9 +1,16 @@
 .Counter{
     background-color: #000000;
     color: white;
+    max-width: 20%;
+    margin: 0 auto;
 }
 
 .Controls{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.Agregar{
+    width: 100%;
 }
