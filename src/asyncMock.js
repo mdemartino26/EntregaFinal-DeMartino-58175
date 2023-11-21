@@ -1,34 +1,35 @@
 const products = [
     {
         id: '1',
-        name:'Emails I cant send',
-        artist:'Sabrina Carpenter',
+        name:'Can´t catch me now',
+        artist:'Olivia Rodrigo',
         price:'5000',
-        genre:'pop',
-        img:'https://i.scdn.co/image/ab67616d0000b273700f7bf79c9f063ad0362bdf',
+        category:'singles',
+        img:'https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Olivia_Rodrigo_-_Can%27t_Catch_Me_Now.png/220px-Olivia_Rodrigo_-_Can%27t_Catch_Me_Now.png',
         stock: 30,
-        descrip:'Emails I cant Send'
+        descrip:'Can´t catch me now single'
     }, 
     {
         id: '2',
-        name:'Superache',
-        artist:'Conan Gray',
+        name:'Brutal Bucket Hat',
+        artist:'Olivia Rodrigo',
         price:'4000',
-        genre:'pop',
-        img:'https://indiehoy.com/wp-content/uploads/2023/01/conan-gray-superache.jpg',
+        category:'merch',
+        img:'https://helios-i.mashable.com/imagery/articles/05nwFFMqJ8Q2dKmXz2Dya7D/hero-image.fill.size_1200x1200.v1628795412.jpg',
         stock: 20,
-        descrip:'Superache'
+        descrip:'Brutal Bucket Hat'
     }, 
     {
         id: '3',
-        name:'Guts',
+        name:'Guts Album',
         artist:'Olivia Rodrigo',
         price:'4500',
-        genre:'pop',
+        category:'discos',
         img:'https://awhspitch.com/wp-content/uploads/2023/09/Fzj1ehKaYAEp6ze.jpeg',
         stock: 50,
         descrip:'Guts'
     },
+   
 ]
 
 export const getProducts = () => {
@@ -43,6 +44,15 @@ export const getProductById = (productId) =>{
     return new Promise((resolve)=>{
         setTimeout(() => {
             resolve(products.find(prod => prod.id === productId))
+        }, 500)
+    })
+}
+
+
+export const getProductByCategory = (productCategory) =>{
+    return new Promise((resolve)=>{
+        setTimeout(() => {
+            resolve(products.filter(prod => prod.category === productCategory))
         }, 500)
     })
 }
