@@ -1,0 +1,19 @@
+.Label{
+    display:block;
+    margin:2em;
+    font-size: medium;
+}
+
+.Input{
+    margin: 1em;
+}
+
+.Container{
+    color: white;
+    margin: 2em;
+}
+
+h1{
+    color: white;
+    margin-top: 1em;
+}
