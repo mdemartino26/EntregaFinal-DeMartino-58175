@@ -1,0 +1,14 @@
+.EmptyCartDiv{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2em;
+    color: white;
+}
+
+.EmptyCart{
+    margin-bottom: 1em;
+}
+
+h3 {
+    color: white;
+}

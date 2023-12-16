@@ -1,8 +1,9 @@
 .CardItem{
     margin: 0 auto;
     color: white;
+    width: 50%;
 }
 
 .ItemImg{
-    width: 30%;
+    width: 40%;
 }

@@ -1,0 +1,12 @@
+.CartItem{
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: 30%;
+    color: white;
+    color: #ff6961;
+    background-color: #5e4c4c;
+    border: 2px solid #ff6961;
+    border-radius: 8px;
+    padding: 2em;
+}
